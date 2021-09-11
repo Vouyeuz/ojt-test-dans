@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 const Login = (props) => {
@@ -26,7 +27,9 @@ const Login = (props) => {
             placeholder="***"
           />
         </FormGroup>
+        <Link to="/job-search" style={{ textDecoration: 'none' }} className="shadow">
         <Button className="my-2">Login</Button>
+        </Link>
       </Form>
   );
 };
