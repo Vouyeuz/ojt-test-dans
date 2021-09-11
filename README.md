@@ -1,3 +1,7 @@
+#Check live version:
+Powered by Netlify [FE OJT Test - Dans]().
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
